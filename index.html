@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hornbill Haulers - Movers & Packers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: white;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581092334654-4b5c00e6f7f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .hero a {
+      background: #28a745;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    .services, .about, .contact {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services h2, .about h2, .contact h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+      color: #28a745;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service:hover {
+      transform: translateY(-10px);
+    }
+    .service img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background: #28a745;
+      color: white;
+      padding: 12px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Hornbill Haulers Logo">
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Reliable Movers & Packers</h1>
+  <p>Relocation with Culture, Care & Innovation</p>
+  <a href="#contact">Get a Free Quote</a>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/home--v1.png" alt="Home Shifting">
+      <h3>Home Shifting</h3>
+    </div>
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/office.png" alt="Office Relocation">
+      <h3>Office Relocation</h3>
+    </div>
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/box.png" alt="Packing Supplies">
+      <h3>Packing Supplies</h3>
+    </div>
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/car--v1.png" alt="Vehicle Transport">
+      <h3>Vehicle Transport</h3>
+    </div>
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/storage.png" alt="Temporary Storage">
+      <h3>Temporary Storage</h3>
+    </div>
+    <div class="service">
+      <img src="https://img.icons8.com/ios/50/000000/clean.png" alt="Pre/Post Move Cleaning">
+      <h3>Pre/Post Move Cleaning</h3>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Hornbill Haulers</h2>
+  <p>Hornbill Haulers is your trusted moving partner, providing seamless relocation services across Itanagar Capital Region. With our commitment to culture, care, and innovation, we ensure your move is safe, smooth, and stress-free.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Phone/WhatsApp:</strong> 8837378882 / 9366597954</p>
+  <p><strong>Email:</strong> hornbillhauler@gmail.com</p>
+  <p><strong>Service Area:</strong> Serving all of Itanagar Capital Region</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Hornbill Haulers | All rights reserved
+</footer>
+
+</body>
+</html>
